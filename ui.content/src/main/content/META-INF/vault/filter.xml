@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/codebase" mode="merge"/>
+    <filter root="/content/codebase" mode="merge"/>
+    <filter root="/content/dam/codebase" mode="merge">
+        <exclude pattern="/content/dam/codebase(/.*)?"/>
+        <include pattern="/content/dam/codebase/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/codebase/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/codebase" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/codebase" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/codebase" mode="merge"/>
+    <filter root="/content/dam/codebase/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/codebase/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/codebase/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
