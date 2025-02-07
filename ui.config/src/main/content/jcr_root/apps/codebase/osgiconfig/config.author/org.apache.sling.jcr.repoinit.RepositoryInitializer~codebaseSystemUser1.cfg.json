@@ -1,10 +1,6 @@
 {
   "scripts": [
-    "create service user codebaseSystemUser1 with path /home/users/system/codebase",
-    "set ACL for codebaseSystemUser1",
-    "allow jcr:read,rep:write,crx:replicate on /content/codebase",
-    "allow jcr:read,rep:write,crx:replicate on /conf/codebase",
-    "allow jcr:all on /content/codebase",
-    "end"
-  ]
+    "create service user codebaseSystemUser1\nset ACL on /content/codebase\nallow jcr:all for codebaseSystemUser1\nend"
+  ],
+  "references": [""]
 }
