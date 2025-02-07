@@ -4,5 +4,4 @@
     <filter root="/apps/codebase/components"/>
     <filter root="/apps/codebase/i18n"/>
     <filter root="/apps/fd/af/theme-clientlibs" mode="merge"/>
-
 </workspaceFilter>

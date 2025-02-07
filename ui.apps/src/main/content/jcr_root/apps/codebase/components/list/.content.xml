@@ -3,5 +3,5 @@
     jcr:primaryType="cq:Component"
     jcr:title="List"
     sling:resourceSuperType="core/wcm/components/list/v3/list"
-    teaserDelegate="codebase/components/teaser"
-    componentGroup="Codebase - Content"/>
+    componentGroup="Codebase - Content"
+    teaserDelegate="codebase/components/teaser"/>
